@@ -3,14 +3,15 @@ package models
 import (
 	"database/sql"
 	"errors"
+	"time"
 )
 
 type Snippet struct {
 	ID        int
 	Title     string
 	Content   string
-	CreatedAt string
-	ExpiresAt string
+	CreatedAt time.Time
+	ExpiresAt time.Time
 }
 
 type SnippetModel struct {
