@@ -6,7 +6,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/justinas/alice"
 
-	"phoenixixixix/snippetbox/ui"
+	"github.com/phoenixixixix/snippetbox/ui"
 )
 
 func (app *application) routes() http.Handler {

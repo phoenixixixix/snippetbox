@@ -16,7 +16,7 @@ import (
 	"github.com/alexedwards/scs/v2"
 	"github.com/go-playground/form/v4"
 
-	"phoenixixixix/snippetbox/internal/models/mocks"
+	"github.com/phoenixixixix/snippetbox/internal/models/mocks"
 )
 
 var csrfTokenRX = regexp.MustCompile(`<input type="hidden" name="csrf_token" value="(.+)">`)

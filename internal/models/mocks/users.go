@@ -1,6 +1,6 @@
 package mocks
 
-import "phoenixixixix/snippetbox/internal/models"
+import "github.com/phoenixixixix/snippetbox/internal/models"
 
 type UserModel struct{}
 

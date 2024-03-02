@@ -8,8 +8,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"phoenixixixix/snippetbox/internal/models"
-	"phoenixixixix/snippetbox/internal/validator"
+	"github.com/phoenixixixix/snippetbox/internal/models"
+	"github.com/phoenixixixix/snippetbox/internal/validator"
 )
 
 func ping(w http.ResponseWriter, r *http.Request) {

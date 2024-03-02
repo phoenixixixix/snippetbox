@@ -15,7 +15,7 @@ import (
 	"github.com/go-playground/form/v4"
 	_ "github.com/go-sql-driver/mysql"
 
-	"phoenixixixix/snippetbox/internal/models"
+	"github.com/phoenixixixix/snippetbox/internal/models"
 )
 
 type application struct {
